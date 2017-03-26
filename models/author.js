@@ -17,7 +17,7 @@ AuthorSchema.pre('save', function(next){
     if ( !this.created_at ) {
         this.created_at = now;
     }
-    next();
+    next();subl 
 });
 
 AuthorSchema.virtual('fullName').get(function () {

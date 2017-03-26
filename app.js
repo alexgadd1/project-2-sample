@@ -10,6 +10,8 @@ var bodyParser = require('body-parser');
 var session = require('express-session');
 var methodOverride = require('method-override');
 var db = require('./db');
+//// CORRECT LISTENING PORT SYNTAX BELOW, ALSO ON BOTTOM OF PAGE?(line 65)////
+var port = 3000;
 
 mongoose.connect('mongodb://localhost/project-2');
 
@@ -58,6 +60,16 @@ app.use(function(err, req, res, next) {
   // render the error page
   res.status(err.status || 500);
   res.render('error');
+});
+
+app.listen(port, function(){
+  console.log('Listening on page');
+});
+
+///OR - FOUND ON SERVER.JS PAGE IN PREVIOUS LAB///
+
+app.listen(3000, function()///(req, res)/// {
+  console.log('hey')
 });
 
 module.exports = app;

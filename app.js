@@ -69,7 +69,7 @@ app.listen(port, function(){
 ///OR - FOUND ON SERVER.JS PAGE IN PREVIOUS LAB///
 
 app.listen(3000, function()///(req, res)/// {
-  console.log('hey')
+  console.log('Listening')
 });
 
 module.exports = app;

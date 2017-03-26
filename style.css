@@ -1,0 +1,21 @@
+h1 {  
+	color: black;
+	text-align: center;
+	font-size: 75px;
+}
+
+h2 {
+	font-size: 50px;
+	text-align: center;
+	color: black;
+}
+
+body {
+	background-image: url("https://s-media-cache-ak0.pinimg.com/564x/23/95/fd/2395fd30a6d774d95b89edf3a6a421b7.jpg");
+	font-size: 75px;
+	text-align: center;
+}
+
+button {
+	font-size: 25px;
+}

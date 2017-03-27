@@ -18,3 +18,7 @@ button:hover {
 	background-color: blue;
 	color: white;
 }
+
+.container {
+	font-size: 40px;
+}

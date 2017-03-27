@@ -62,13 +62,13 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-app.listen(port, function(){
-  console.log('Listening on page');
-});
+//app.listen(port, function(){
+  //console.log('Listening on page');
+//});
 
 ///OR - FOUND ON SERVER.JS PAGE IN PREVIOUS LAB///
 
-app.listen(3000, function()///(req, res)/// {
+app.listen(3000, function(req, res)///(req, res)/// {
   console.log('Listening')
 });
 

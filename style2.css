@@ -1,0 +1,20 @@
+h1 {
+	font-size: 50px;
+}
+
+p {
+	font-size: 25px;
+}
+
+button {
+	font-size: 25px;
+}
+
+body {
+	background-image: url("https://s-media-cache-ak0.pinimg.com/564x/23/95/fd/2395fd30a6d774d95b89edf3a6a421b7.jpg");
+}
+
+button:hover {
+	background-color: blue;
+	color: white;
+}

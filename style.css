@@ -19,3 +19,8 @@ body {
 button {
 	font-size: 25px;
 }
+
+button:hover {
+	background-color: blue;
+	color: white;
+}
